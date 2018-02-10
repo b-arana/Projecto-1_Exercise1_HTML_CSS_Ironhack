@@ -8,31 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="nav-left"> 
-    <div>
+  <nav class="nav-general"> 
+    <div class="nav-left">
       <a class="icon-heart" href="#">❤</a>
       <span class="acronimo">Neophobe Plebeain Mumpsimus</span>
     </div>
-    <ul class="nav-right">
-      <li><a href="#">npm Enterprise</a></li>
-      <li><a href="#">features</a></li>
-      <li><a href="#">pricing</a></li>
-      <li><a href="#">documentation</a></li>
-      <li><a href="#">support</a></li>
-    </ul>
-    
+    <div class="nav-right">
+      <ul>
+        <li><a class="nav-right-item" href="#">npm Enterprise</a></li>
+        <li><a class="nav-right-item" href="#">features</a></li>
+        <li><a class="nav-right-item" href="#">pricing</a></li>
+        <li><a class="nav-right-item" href="#">documentation</a></li>
+        <li><a class="nav-right-item" href="#">support</a></li>
+      </ul> 
+    </div>
+    <div class="clearflex"></div>
   </nav>
-  <header>
-    <img src="images/npm-logo.png" alt="npm">
-    <a href="#">sign up</a>
-    <span>or</span>
-    <a href="#">log in</a>
-    <img src="images/bear-logo.png" alt="bear">
-    <h1>Build amazing things</h1>
-    <p>npm is the package manager for javaScript and the world's largest
-    software registry.Discover packages of reusable code - and
-  assemble them in powerful new ways.</p>
-    <a href="#">Sign up for npm</a>
+  <header class="header-container">
+    <div class="header-nav">
+      <img class="logo-header" src="images/npm-logo.png" alt="npm">
+      <input class="search-bar" type="text" placeholder="find packages">
+      <input class="search-bar-2" type="text" placeholder="">
+      <a class="header-nav-item" href="#">sign up</a>
+      <span>or</span>
+      <a class="header-nav-item" href="#">log in</a>
+      <img class="logo-bear" src="images/bear-logo.png" alt="bear">
+    </div>
+    <div class="clearflex"></div>
+    <div class="header-center"> 
+      <h1>Build amazing things</h1>
+      <p>npm is the package manager for javaScript and the world's largest
+        software registry.Discover packages of reusable code - and
+        assemble them in powerful new ways.</p>
+      <a href="#">Sign up for npm</a>
+   </div>
   </header>
   <section>
     <img src="images/collaboration.svg" alt="npm">
