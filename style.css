@@ -1,19 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 *{
     margin:0;
     padding: 0;
 }
 body{
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size:14px;
+    font-family:'Open Sans','Source Sans Pro','sans-serif';
+    font-size:10px;
 }
 .nav-general {
     background-color: #C12127;
-    font-size: 16px; 
-    font-weight:300;  
+    font-size: 1.4em; 
     width: 100%;
-    height:40px;   
+    height:30px;   
     padding:15px 5px 0 0; 
 } 
 nav a {
@@ -37,50 +35,84 @@ nav span{
 }
 .nav-right ul li {
     display: inline-block;
-    margin:0 20px;    
+    margin:0 15px;    
 }
-
-.header-container{
-    background-color: rgb(32,101,136);
-    color:#fff;
-    height: 400px;
+#header-container{
+    background-color: rgb(35, 90, 117);
+    color:#fff;    
 }
 .header-nav{
+    display:inline-block;
     width: 100%;
-    background-color: red;
-    
+    padding-top: 20px;  
 }
 .logo-header{
     float:left;
-    width: 5%;
+    width: 8%;
+    margin: 0 20px;
 }
-.search-bar{
+.search-bar,.search-bar-2 {
     float: left;
-    width: 45%;
+    width: 72.4%;
     background-color: rgb(31,82,111);
-    font-size:1.1em;
+    font-size:1.7em;
+    padding: 14px 14px;
+    border: 0.5px solid rgba(116, 136, 148, 0.548);
 }
 .search-bar-2{
+    width: 1%;  
+    margin-right:20px;  
+}
+.header-nav-right{
     float:left;
-    width: 3%;
-    background-color: rgb(31,82,111);
-    
-    
+    text-align: center;
+    margin-top: 12px;
 }
-.search-bar,.search-bar-2{
-    padding: 15px 15px;
-}
-
-.header-nav-item ,span{
-    float: left;
+.header-nav-right > a,
+.header-nav-right > p {
+    display: inline;
     text-decoration: none;
-    color:#fff;
-    margin-right: 10px;
+    color:rgba(255, 255, 255, 0.8);
+    font-size: 1.6em;
+    margin:0 3px;
 }
 .logo-bear{
-    float:right;
+    width: 40px;
+    height: 40px;
 }
 .clearfix{
     clear:both;
+}
+#header-center{
+    background-image: url("images/city-scape.svg");
+    height: 300px;
+}
+.header-center{
+    font-family:'Open Sans','Source Sans Pro','sans-serif';
+    width: 63%;
+    margin:0 auto; 
+}
+#header-center h1 {
+    font-size: 4.7em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-top:45px;
+}
+#header-center p{
+    font-size: 1.8em;
+    font-weight: 100;
+    margin-top:20px;
+}
+#link-botton{
+    margin-top: 40px;
+}
+.link-botton{
+    background-color:rgb(240, 146, 51);
+    color:#fff;
+    font-size: 1.7em;
+    font-weight: 100;
+    padding: 10px 28px;
+    text-decoration: none;
+    border-radius: 30px;
 }
  
